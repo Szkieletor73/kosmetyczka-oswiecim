@@ -1,0 +1,47 @@
+* {
+    /* Global variables */
+    --page-margin: 48px;
+    --page-margin-mobile: 24px;
+    
+    --max-page-width: 1800px;
+
+    --nav-height: 128px;
+
+    /* Font setup */
+    font-family: 'Open Sans';
+
+    /* Color palette */
+    --color-primary: #ff0090;
+    --color-on-primary: #fff;
+
+    --color-background: #fff;
+    --color-on-background: #222;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    background-color: var(--color-background);
+    color: var(--color-on-background);
+    min-height: 100vh;
+}
+
+/* Iconify web component */
+iconify-icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+}
+
+article {
+    width: 100%;
+    max-width: 1480px;
+    padding-left: var(--page-margin);
+    padding-right: var(--page-margin);
+}
+
+p {
+    line-height: 1.4em;
+}
